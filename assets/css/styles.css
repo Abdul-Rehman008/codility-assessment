@@ -1,0 +1,164 @@
+body {
+  font-family: "Roboto", serif;
+}
+
+@media (min-width: 1200px) {
+  /* Extra Large screens */
+  .container {
+    max-width: 1120px;
+  }
+}
+
+.mainHeading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  margin-bottom: 18px;
+  color: #091133;
+}
+
+.sectionText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #6f7cb2;
+}
+
+.containerWrapper {
+  padding: 110px 0;
+}
+
+.feature-row {
+  margin-top: 80px;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #091133;
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #6f7cb2;
+  max-width: 95%;
+}
+
+.feature-img-icon {
+  width: 36px;
+  height: 36px;
+}
+.powerFulSectionImgWrap {
+  max-width: 540px;
+  min-height: 525px;
+}
+
+.imgWrapper {
+  max-width: 480px;
+  min-height: 315px;
+}
+
+@media (max-width: 575px) {
+  .imgWrapper {
+    max-width: 100%;
+    min-height: 100%;
+  }
+}
+
+.hero {
+  background-color: #f8f9fa;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #000;
+}
+
+.btn-dark {
+  background-color: #000;
+  border: none;
+}
+
+.btn-outline-dark {
+  border: 1px solid #000;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.icon img {
+  filter: grayscale(100%);
+}
+
+.pricing-section {
+  background-color: #f0f2fc;
+  text-align: center;
+  padding: 50px;
+}
+.pricing-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a1f3c;
+}
+.purchase-btn {
+  background-color: #1a1f3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #eef0ff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer a {
+  color: #6c757d;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #343a40;
+}
+.social-icons a {
+  font-size: 18px;
+  margin: 0 5px;
+  color: #6c757d;
+}
+.social-icons a:hover {
+  color: #343a40;
+}
+.purchase-btn {
+  background-color: #0d1b4c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+}
