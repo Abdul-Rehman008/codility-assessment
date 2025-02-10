@@ -17,57 +17,61 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center w-100">
-                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <a class="navbar-brand fw-bold m-0" href="#">Landing</a>
-                </div>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <div class="navHeroSectionWrapper">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <!-- <div class="" id="navbarNav"> -->
+                        <ul class="navbar-nav flex-row my-3">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    <!-- </div> -->
+                    <div>
+                        <a class="navbar-brand fw-bold m-0 logo" href="#">Landing</a>
+                    </div>
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
     <span class="navbar-toggler-icon"></span>
 </button> -->
-                <div>
-                    <a href="#" class="btn btn-dark">Buy Now</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <section class="hero py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- Text Content -->
-                <div class="col-md-6">
-                    <h1 class="fw-bold">Introduce Your Product <br> Quickly & Effectively</h1>
-                    <p class="sectionText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                        ligula eget dolor. Aenean massa. Cum sociis
-                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                        mus.</p>
-                    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-                        enim.
-                    </p>
                     <div>
-                        <a href="#" class="btn btn-dark">Purchase UI Kit</a>
-                        <a href="#" class="btn btn-outline-dark ms-2">Learn More</a>
+                        <a href="#" class="btn btn-light ctaDark ctaMain">Buy Now</a>
                     </div>
                 </div>
+            </div>
+        </nav>
 
-                <!-- Image Content -->
-                <div class="col-md-6 position-relative">
-                    <!-- <div class="position-absolute" style="right: -20px; top: 0;"> -->
-                    <img src="assets/img/heroSectionImg.png" alt="Illustration" class="img-fluid">
-                    <!-- </div> -->
+        <section class="heroSection">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- Text Content -->
+                    <div class="col-md-6">
+                        <h1 class="fw-bold">Introduce Your Product <br> Quickly & Effectively</h1>
+                        <p class="heroSectionText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo
+                            ligula eget dolor. Aenean massa. Cum sociis
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                            mus.</p>
+                        <p class="heroSectionText mb-5 pb-3">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                            Nulla consequat massa quis
+                            enim.
+                        </p>
+                        <div class="ctaWrapper d-flex align-items-center">
+                            <a href="#" class="btn btn-light ctaMain ctaDark">Purchase UI Kit</a>
+                            <a href="#" class="btn btn-outline-dark ctaMain ctaOutline">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- Image Content -->
+                    <div class="col-md-6 position-relative">
+                        <div class="herImgWrapper ">
+                        <img src="assets/img/heroSectionImg.png" alt="Illustration" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- 2nd Section -->
     <section class="powerfulSection containerWrapper">
@@ -203,51 +207,49 @@
                         Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
                         enim.
                     </p>
+                    <button class="btn btn-light ctaMain ctaDark mt-4">Purchase Now</button>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- fourth -->
-    <section class="pricing-section">
+    <section class="pricingSection">
+        <img src="assets/img/curveImg.png" alt="Illustration" class="w-100 h-100">
         <div class="container">
-            <div class="pricing-container">
-                <h2>A Price To Suit Everyone</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
-                <p class="price">$40</p>
-                <p>UI Design Kit</p>
-                <p>See, One price. Simple.</p>
-                <button class="purchase-btn">Purchase Now</button>
+            <div class="pricingContentWrapper">
+                <h2 class="mainHeading">A Price To Suit Everyone</h2>
+                <p class="sectionText pb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
+                <p class="pricingText">$40</p>
+                <p class="text-product">UI Design Kit</p>
+                <p class="text-muted">See, One price. Simple.</p>
+                <button class="btn btn-light ctaMain ctaDark">Purchase Now</button>
             </div>
         </div>
     </section>
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-4 text-start">
-                    <small>&copy;2023 Yourcompany</small>
-                </div>
-                <div class="col-md-4 text-center">
-                    <strong>Landing</strong>
-                </div>
-                <div class="col-md-4 text-end">
-                    <button class="purchase-btn">Purchase now</button>
-                </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <p class="copywriteText"><small>&copy;2023 Yourcompany</small></p>
+                <a class="logo" href="#"><strong>Landing</strong></a>
+                <button class="subscriptionBtn btn-light">Purchase now</button>
             </div>
             <hr>
-            <div class="row">
-                <div class="col-md-4 text-start">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="navFooter">
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">Contact</a>
                 </div>
-                <div class="col-md-4 text-center social-icons">
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-youtube"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
+                <div class="social-icons">
+                    <a href="#"><img src="assets/img/facebookIcon.png" alt="facebookIcon" /></a>
+                    <a href="#"><img src="assets/img/linkedIcon.png" alt="linkedInIcon" /></a>
+                    <a href="#"><img src="assets/img/twitterIcon.png" alt="twitterIcon" /></a>
+                    <a href="#"><img src="assets/img/youtubeIcon.png" alt="youtubeIcon" /></a>
+                    <a href="#"><img src="assets/img/InstagramIcon.png" alt="InstagramIcon" /></a>
                 </div>
             </div>
         </div>
